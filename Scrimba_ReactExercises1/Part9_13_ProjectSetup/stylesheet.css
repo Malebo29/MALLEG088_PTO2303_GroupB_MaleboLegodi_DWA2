@@ -1,0 +1,25 @@
+body {
+    color: #ffffff; /* This will make the body text white */
+}
+
+.main--title {
+    font-size: 2em;
+    letter-spacing: 0.1em; /* This will add some letter spacing to the title */
+    padding: 10px; /* This will add some padding around the title */
+}
+
+.main--facts {
+    padding: 20px; /* This will add some padding around the facts */
+}
+
+.main--facts li {
+    padding: 5px 0; /* This will add some vertical padding to each fact */
+}
+
+.main--facts li::before {
+    content: "•"; /* This will replace the default bullet point with a custom one */
+    color: #61DAFB; /* This will make the bullet points #61DAFB */
+    display: inline-block; /* This is necessary for the width and margin-right to work */
+    width: 1em; /* This will make the bullet points the same width as the default ones */
+    margin-right: 0.5em; /* This will add some space between the bullet points and the text */
+}

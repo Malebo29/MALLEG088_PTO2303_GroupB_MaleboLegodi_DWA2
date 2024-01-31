@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: "Arial Black", Gadget, sans-serif; 
+    font-size: 18px; /* This will increase the base font size for the page */
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.nav-items {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-items li {
+    margin-right: 10px;
+}
+
+.nav-items li a { 
+    text-decoration: none; 
+    color: #000000; 
+    font-size: 1em; /* This will make the navbar items the same size as the base font size */
+}
+
+.img-logo { 
+    width: 50px;
+    margin: 10px;
+}
+
+.main-content {
+    flex: 1 0 auto;
+    padding: 10px;
+    font-size: 1.2em; /* This will make the main content text 20% larger than the base font size */
+}
+
+.footer {
+    flex-shrink: 0;
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.8em; /* This will make the footer text 20% smaller than the base font size */
+}
